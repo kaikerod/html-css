@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    background-color: #615f5f;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 5px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #4d4d4d;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #00000081;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: black;
+}
+
+article {
+    background-color: lightgray;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 5px;
+    margin: 8px;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 8px 8px 11px #00000081;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+article > aside {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}

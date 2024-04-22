@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgba(3, 201, 236, 0.781);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgba(3, 201, 236, 0.781);
+    color: cornflowerblue;
+}
+
+h2 {
+    color: palevioletred;
+}
+
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: purple;
+}
