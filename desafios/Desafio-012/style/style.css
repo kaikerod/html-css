@@ -48,14 +48,24 @@ a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 450px) {
+    section {
+        font-size: 5vw
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    section {
+        font-size: 1.5vw;
+    }
+}
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 32px;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3vw;
-    
 }
 
 section.normal {
