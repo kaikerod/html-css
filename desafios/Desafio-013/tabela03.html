@@ -30,14 +30,14 @@
 <body>
     <table>
         <thead>
-            <th>Área</th>
-            <th>Disciplinas</th>
-            <th colspan="2">Notas</th>
+            <th scope="rowgroup">Área</th>
+            <th scope="row">Disciplinas</th>
+            <th colspan="2" scope="">Notas</th>
             <th>Média</th>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -85,7 +85,7 @@
             </tr>
 
             <tr style="background-color: rgb(151, 151, 151); text-align: left; color: white;" >
-                <th colspan="5">Média de Humanas</th>
+                <th colspan="5" scope="rowgroup">Média de Humanas</th>
             </tr>
         </tbody>
     </table>
