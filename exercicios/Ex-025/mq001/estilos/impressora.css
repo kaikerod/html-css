@@ -20,3 +20,8 @@ menu {
 article::after {
     content: 'Esse artigo foi impresso através do site www.asdasdad.com.br';
 }
+
+article {
+    width: 100%;
+    text-align: justify;
+}
